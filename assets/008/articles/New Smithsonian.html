@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Smithsonian Viewer Test</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        /* First section: images side by side */
+        .image-row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .image-row img {
+            width: 50%;
+            height: auto;
+            display: block;
+        }
+
+        /* Second section: full width image */
+        .full-width img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section">
+        <p>Hallo,<br>
+        wir probieren den Smithsonian viewer</p>
+
+        <div class="image-row">
+            <img src="Bild01.jpg" alt="Bild 01">
+            <img src="Bild02.jpg" alt="Bild 02">
+        </div>
+    </div>
+
+    <div class="section full-width">
+        <p>wir sind in der zweiten Sektion des Artikels:</p>
+        <img src="Bild03.jpg" alt="Bild 03">
+    </div>
+
+</body>
+</html>

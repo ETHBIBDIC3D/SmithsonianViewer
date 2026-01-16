@@ -1,0 +1,588 @@
+{
+    "asset": {
+        "type": "application/si-dpo-3d.document+json",
+        "version": "1.0",
+        "generator": "Voyager"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "units": "mm",
+            "nodes": [
+                0,
+                1,
+                5,
+                6
+            ],
+            "meta": 1,
+            "setup": 0
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.2686558,
+                -0.1473774,
+                1.3866084
+            ],
+            "rotation": [
+                -0.0755904,
+                0.3494059,
+                0.0282936,
+                0.9334887
+            ],
+            "name": "Camera",
+            "camera": 0
+        },
+        {
+            "rotation": [
+                0,
+                0.3505495,
+                0,
+                0.9365442
+            ],
+            "name": "Lights",
+            "children": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "translation": [
+                -0.9675721,
+                1.0593584,
+                1.7841632
+            ],
+            "rotation": [
+                0.4829741,
+                -0.1070728,
+                0.1880998,
+                0.8484633
+            ],
+            "scale": [
+                0.3815784,
+                0.3815784,
+                0.3815784
+            ],
+            "name": "Shadow Caster #1",
+            "light": 0
+        },
+        {
+            "translation": [
+                1.7435194,
+                1.0307696,
+                1.0673931
+            ],
+            "rotation": [
+                0.3546969,
+                0.163893,
+                -0.3861077,
+                0.8356136
+            ],
+            "scale": [
+                0.3815784,
+                0.3815784,
+                0.3815784
+            ],
+            "name": "Shadow Caster #2",
+            "light": 1
+        },
+        {
+            "name": "Environment",
+            "light": 2
+        },
+        {
+            "rotation": [
+                0.5,
+                -0.5,
+                0.5,
+                -0.5
+            ],
+            "name": "Main",
+            "model": 0,
+            "meta": 0
+        },
+        {
+            "rotation": [
+                0.5,
+                -0.5,
+                0.5,
+                -0.5
+            ],
+            "name": "Frame",
+            "model": 1
+        }
+    ],
+    "cameras": [
+        {
+            "type": "perspective",
+            "perspective": {
+                "yfov": 30,
+                "znear": 0.0106705,
+                "zfar": 10.6704772
+            },
+            "autoNearFar": true
+        }
+    ],
+    "lights": [
+        {
+            "enabled": false,
+            "color": [
+                1,
+                0.95,
+                0.9
+            ],
+            "intensity": 0.01,
+            "type": "directional",
+            "shadowEnabled": true,
+            "shadowSize": 3.8157838,
+            "shadowIntensity": 50
+        },
+        {
+            "enabled": false,
+            "color": [
+                0.9,
+                0.95,
+                1
+            ],
+            "intensity": 0.01,
+            "type": "directional",
+            "shadowEnabled": true,
+            "shadowSize": 3.8157838,
+            "shadowIntensity": 60
+        },
+        {
+            "enabled": true,
+            "intensity": 1,
+            "type": "environment"
+        }
+    ],
+    "models": [
+        {
+            "units": "cm",
+            "tags": "Main",
+            "boundingBox": {
+                "min": [
+                    -0.1571565,
+                    -0.0506577,
+                    -0.1007016
+                ],
+                "max": [
+                    0.1594069,
+                    0.0552499,
+                    0.0841584
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Highest",
+                    "assets": [
+                        {
+                            "uri": "Andrea Frame.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                },
+                {
+                    "usage": "Web3D",
+                    "quality": "High",
+                    "assets": [
+                        {
+                            "uri": "main.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "2CDf91Sjprmk",
+                    "titles": {
+                        "EN": "White point*"
+                    },
+                    "leads": {
+                        "EN": ""
+                    },
+                    "taglist": {
+                        "EN": [
+                            "Annotation"
+                        ]
+                    },
+                    "articleId": "mk7I52SuxKy4",
+                    "style": "Extended",
+                    "position": [
+                        0.0435243,
+                        -0.0436058,
+                        0.0107985
+                    ],
+                    "direction": [
+                        -0.0982738,
+                        -0.9159114,
+                        0.3891641
+                    ],
+                    "scale": 0.01,
+                    "color": [
+                        0.0082791,
+                        0.0092501,
+                        0.009664
+                    ]
+                }
+            ]
+        },
+        {
+            "units": "cm",
+            "tags": "Frame",
+            "boundingBox": {
+                "min": [
+                    -0.03377,
+                    -0.0474482,
+                    -0.0790285
+                ],
+                "max": [
+                    0.03377,
+                    -0.00432,
+                    -0.0270515
+                ]
+            },
+            "derivatives": [
+                {
+                    "usage": "Web3D",
+                    "quality": "Highest",
+                    "assets": [
+                        {
+                            "uri": "Andrea Frame.glb",
+                            "type": "Model",
+                            "mimeType": "model/gltf-binary"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "metas": [
+        {
+            "articles": [
+                {
+                    "id": "mk7I52SuxKy4",
+                    "uris": {
+                        "EN": "articles/New Smithsonian.html"
+                    },
+                    "titles": {
+                        "EN": "Smithsonian viewer"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ]
+        },
+        {
+            "collection": {
+                "titles": {
+                    "EN": "008"
+                },
+                "intros": {
+                    "EN": ""
+                }
+            }
+        }
+    ],
+    "setups": [
+        {
+            "units": "cm",
+            "interface": {
+                "visible": true,
+                "logo": true,
+                "menu": true,
+                "tools": true
+            },
+            "viewer": {
+                "shader": "Default",
+                "toneMapping": true,
+                "exposure": 1,
+                "gamma": 2,
+                "annotationsVisible": false,
+                "activeTags": "Main"
+            },
+            "reader": {
+                "enabled": false,
+                "position": "Overlay"
+            },
+            "navigation": {
+                "type": "Orbit",
+                "enabled": true,
+                "autoZoom": true,
+                "lightsFollowCamera": true,
+                "autoRotation": false,
+                "orbit": {
+                    "orbit": [
+                        -24,
+                        -26,
+                        0
+                    ],
+                    "offset": [
+                        0,
+                        0,
+                        150
+                    ],
+                    "minOrbit": [
+                        -90,
+                        null,
+                        null
+                    ],
+                    "maxOrbit": [
+                        90,
+                        null,
+                        null
+                    ],
+                    "minOffset": [
+                        null,
+                        null,
+                        0.1
+                    ],
+                    "maxOffset": [
+                        null,
+                        null,
+                        10000
+                    ]
+                }
+            },
+            "background": {
+                "style": "RadialGradient",
+                "color0": [
+                    0.2,
+                    0.25,
+                    0.3
+                ],
+                "color1": [
+                    0.01,
+                    0.03,
+                    0.05
+                ]
+            },
+            "floor": {
+                "visible": false,
+                "position": [
+                    0,
+                    -25,
+                    0
+                ],
+                "size": 50,
+                "color": [
+                    0.6,
+                    0.75,
+                    0.8
+                ],
+                "opacity": 0.5,
+                "receiveShadow": false
+            },
+            "grid": {
+                "visible": false,
+                "color": [
+                    0.5,
+                    0.7,
+                    0.8
+                ]
+            },
+            "tape": {
+                "enabled": false,
+                "startPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "startDirection": [
+                    0,
+                    0,
+                    0
+                ],
+                "endPosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "endDirection": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "slicer": {
+                "enabled": false,
+                "axis": "X",
+                "inverted": false,
+                "position": 0.5
+            },
+            "tours": [
+                {
+                    "steps": [
+                        {
+                            "id": "gvPlIl",
+                            "titles": {
+                                "EN": "Full Model"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "6OsZyk",
+                            "titles": {
+                                "EN": "Zoom in Frame"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        },
+                        {
+                            "id": "lwADx4",
+                            "titles": {
+                                "EN": "White Point"
+                            },
+                            "altTexts": {
+                                "EN": "Missing content"
+                            }
+                        }
+                    ],
+                    "titles": {
+                        "EN": "Exploration 008"
+                    },
+                    "leads": {
+                        "EN": ""
+                    }
+                }
+            ],
+            "snapshots": {
+                "features": [
+                    "reader",
+                    "viewer",
+                    "navigation"
+                ],
+                "targets": [
+                    "scenes/0/setup/reader/enabled",
+                    "scenes/0/setup/reader/position",
+                    "scenes/0/setup/reader/articleId",
+                    "scenes/0/setup/viewer/annotationsVisible",
+                    "scenes/0/setup/viewer/activeAnnotation",
+                    "scenes/0/setup/viewer/activeTags",
+                    "scenes/0/setup/viewer/shader",
+                    "scenes/0/setup/viewer/variant",
+                    "scenes/0/setup/viewer/exposure",
+                    "scenes/0/setup/navigation/orbit",
+                    "scenes/0/setup/navigation/offset"
+                ],
+                "states": [
+                    {
+                        "id": "scene-default",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            false,
+                            "",
+                            "Annotation, Main, Frame",
+                            0,
+                            0,
+                            1,
+                            [
+                                -5.9532684,
+                                311.1476129,
+                                0
+                            ],
+                            [
+                                0.2371831,
+                                0.0486777,
+                                5.0998359
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1,
+                        "threshold": 0
+                    },
+                    {
+                        "id": "gvPlIl",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main",
+                            0,
+                            0,
+                            1,
+                            [
+                                -1.369793,
+                                303.3115056,
+                                0
+                            ],
+                            [
+                                0.2371831,
+                                0.0486777,
+                                8.189222
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "6OsZyk",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Frame",
+                            0,
+                            0,
+                            1,
+                            [
+                                -6.1654334,
+                                307.2461976,
+                                0
+                            ],
+                            [
+                                -0.1659366,
+                                0.036084,
+                                2.6960806
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    },
+                    {
+                        "id": "lwADx4",
+                        "values": [
+                            false,
+                            0,
+                            "",
+                            true,
+                            "",
+                            "Main, Annotation",
+                            0,
+                            0,
+                            1,
+                            [
+                                -9.2589943,
+                                401.0418633,
+                                0
+                            ],
+                            [
+                                0.046397,
+                                -0.4477569,
+                                2.6314115
+                            ]
+                        ],
+                        "curve": "EaseOutQuad",
+                        "duration": 1.5
+                    }
+                ]
+            }
+        }
+    ]
+}
