@@ -180,17 +180,6 @@
                     "quality": "Highest",
                     "assets": [
                         {
-                            "uri": "Andrea Frame.glb",
-                            "type": "Model",
-                            "mimeType": "model/gltf-binary"
-                        }
-                    ]
-                },
-                {
-                    "usage": "Web3D",
-                    "quality": "High",
-                    "assets": [
-                        {
                             "uri": "main.glb",
                             "type": "Model",
                             "mimeType": "model/gltf-binary"
