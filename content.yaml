@@ -1,0 +1,24 @@
+# Page content. After editing, run:  python _generate_page.py
+
+# Pages appear on the index in this order.
+#
+#   folder:       folder name inside assets/ (required)
+#   sample:       sample number, shown in the link text
+#   date:         YYYY-MM-DD, shown in the link text
+#   title:        shown in the link text
+#   description:  shown below the link on the index
+#   thumbnail:    image file inside the page's assets folder, shown on the index
+pages:
+  - folder: eth000020346_20261012_tour_no_tags
+    sample: eth000020346
+    date: 2026-10-12
+    title: demo tour, tags not working yet
+    description: ""
+    thumbnail: scene-image-medium.jpg
+
+  - folder: eth000020346_20261012_tour_modifies_tags
+    sample: eth000020346
+    date: 2026-10-12
+    title: tour modifies tags
+    description: ""
+    thumbnail: scene-image-medium.jpg
