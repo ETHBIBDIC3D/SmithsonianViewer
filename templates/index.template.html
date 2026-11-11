@@ -12,7 +12,7 @@
 	<link href="assets/style.css" rel="stylesheet">
 </head>
 <body>
-	<h1>Smithsonian Voyager Story Demo Scenes</h1>
+	<h1>Earth Science 3D</h1>
 	<ul>
 {%- for page in pages %}
 		<li>
@@ -21,11 +21,11 @@
 				<img src="assets/{{ page.folder }}/{{ page.thumbnail }}" alt="">
 				{%- endif %}
 				<h2>
-					{{ page.label }}</a>
+					{{ page.title }}</a>
 				</h2>
-				<!-- {%- if page.description %}
-				<p>{{ page.description }}</p>
-				{%- endif %} -->
+				{%- if page.description %}
+					<p>{{ page.description }}</p>
+				{%- endif %}
 			</a>
 		</li>
 {%- endfor %}

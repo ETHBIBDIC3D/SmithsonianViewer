@@ -1,5 +1,4 @@
 """Render content.yaml + templates/ into generated/. Every run replaces generated/, nothing else."""
-import datetime
 import shutil
 from pathlib import Path
 
@@ -15,11 +14,6 @@ for page in pages:
     folder = page["folder"]
     if not (ROOT / "assets" / folder).is_dir():
         raise SystemExit(f"Folder not found: assets/{folder} (generated/ was not changed)")
-    date = page.get("date")
-    if isinstance(date, datetime.date):
-        date = date.strftime("%d.%m.%Y")
-    parts = [page.get("sample"), date, page.get("title")]
-    page["label"] = " ".join(str(part) for part in parts if part)
     page["filename"] = f"{folder}.html"
 
 # Render everything first, so a template error leaves the old generated/ intact.

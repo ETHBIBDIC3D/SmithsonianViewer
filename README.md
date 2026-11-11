@@ -7,7 +7,7 @@ A static demo site that shows 3D models in the Smithsonian Voyager viewer. A sma
 ```text
 SmithsonianViewer/
 ├── _generate_page.py           Generates the site into generated/
-├── content.yaml                Pages, dates, descriptions and thumbnails: edit this
+├── content.yaml                Pages, titles, descriptions and thumbnails: edit this
 ├── templates/
 │   ├── index.template.html     Layout of the overview page
 │   └── subpage.template.html   Layout of a viewer page
