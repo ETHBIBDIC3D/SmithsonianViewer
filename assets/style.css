@@ -1,0 +1,50 @@
+
+
+* {
+    text-decoration: none;
+    color: inherit;
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2em;
+}
+
+h1 {
+    padding-bottom: 1em;
+}
+
+ul {
+    display: flex;
+    width: 100vw;
+    gap: 2em;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+
+    li {
+        min-width: 30%;
+        width: 30%;
+
+        list-style: none;
+
+        h2 {
+            font-size: 20px;
+            margin-top: 0.25em;
+            margin-bottom: 0.25em
+        }
+
+
+        img {
+            width: 100%;
+        }
+        
+        transition: .1s ease-in-out;
+
+        &:hover {
+            transform: scale(1.01);
+        }
+    }
+}

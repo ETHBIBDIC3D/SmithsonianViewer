@@ -1,0 +1,19 @@
+# Page content. After editing, run:  python _generate_page.py
+
+# Pages appear on the index in this order.
+#
+#   folder:       folder name inside assets/ (required)
+#   title:        link text on the index and page title
+#   description:  shown below the link on the index
+#   thumbnail:    image file inside the page's assets folder, shown on the index
+
+pages:
+  # - folder: eth000020346_20261012_tour_no_tags
+  #   title: eth000020346
+  #   description: "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum."
+  #   thumbnail: scene-image-medium.jpg
+
+  - folder: eth000020346_20261012_tour_modifies_tags
+    title: ETH000020346
+    thumbnail: scene-image-medium.jpg
+    # description: "Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum."
